@@ -17,9 +17,15 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Social</h1>
         <span className="section-divider"></span>
         <div className="footer__icons">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
           <FiFacebook />
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
           <FiTwitter />
+        </a>
+         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
           <FiInstagram />
+         </a>
         </div>
       </div>
 
