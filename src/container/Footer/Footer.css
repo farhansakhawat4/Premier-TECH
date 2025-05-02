@@ -1,0 +1,113 @@
+.app__footer {
+    background-color: #2e2c2c;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .section__padding {
+    padding: 4rem 4rem;
+  }
+  
+  .app__footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .app__footer-links_logo {
+    margin-top: -4em;
+    flex: 1;
+    min-width: 220px;
+  }
+  .app__footer-links_contact,
+  .app__footer-links_work,
+  .app__footer-links_icons {
+    flex: 1;
+    min-width: 220px;
+  }
+  
+  .app__footer-links_logo img {
+    width: 200px;
+   
+    margin-bottom: -1rem;
+    
+  }
+  .p__opensans {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #ddd;
+  }
+  .p__opensan {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  .app__footer-headtext {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  .app__footer .section-divider {
+    
+    width: 60px;
+    height: 1px;
+    background-color: rgba(246, 249, 251, 0.3);
+    margin: -1rem 0 1rem 0;
+    
+  }
+  
+  
+ 
+  .app__footer-links_icons svg {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .app__footer-links_icons svg:hover {
+    transform: scale(1.1);
+  }
+  
+  .app__footer-links_work a {
+    text-decoration: none;
+    color: #ddd;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+  
+  .app__footer-links_work a:hover {
+    color: #fff;
+  }
+  
+  .footer__copyright {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .app__footer-links {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .app__footer-links_icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .app__footer-headtext {
+      margin-bottom: 0.5rem;
+    }
+  }
+  

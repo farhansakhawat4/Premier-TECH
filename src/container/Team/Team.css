@@ -1,0 +1,97 @@
+.team-section {
+    padding: 60px 20px;
+    background-color: #1d1d1d;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .section-divider {
+    width: 60px;
+    height: 1px;
+    background-color: #eff5fa;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .team-member {
+    background-color: #272727;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-member-img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: #fff;
+  }
+  
+  .team-member p {
+    font-size: 0.95rem;
+    color: #A2A2A2;
+  }
+  
+  .about-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .about-block {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .about-block h5 {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .about-block h3,
+  .about-block p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #A2A2A2;
+  }
+  
+
+  

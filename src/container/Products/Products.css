@@ -1,0 +1,76 @@
+.products-section {
+    padding: 60px 60px; /* Increased horizontal padding */
+    background-color: #1d1d1d;
+    scroll-margin-top: 100px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #A2A2A2;
+  }
+  
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Exactly 3 cards per row */
+    gap: 25px; /* Increased space between cards */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the cards block */
+  }
+  
+  .product-card {
+    background: #212121;
+    border-radius: 12px;
+    padding: 30px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #A2A2A2;
+  }
+  
+  .card-points {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .card-points li {
+    margin-bottom: 8px;
+    color: #A2A2A2;
+  }
+
+  @media (max-width: 1024px) {
+    .cards-wrapper {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cards-wrapper {
+      grid-template-columns: 1fr; /* 1 column on phones */
+      padding: 0 10px;
+    }
+  
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .product-card {
+      padding: 20px;
+    }
+  }
+  
+  /* Fix anchor offset for fixed navbar */
+  #products {
+    scroll-margin-top: 100px; /* adjust based on navbar height */
+  }
+  

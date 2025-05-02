@@ -1,0 +1,47 @@
+.app__about {
+    background-color: #272222;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about__heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+  
+  .app__about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    gap: 3rem;
+  }
+  
+  .app__about-content_about,
+  .app__about-content_history {
+    flex: 1 1 45%;
+    min-width: 300px;
+  }
+  
+  .headtext__cormorant {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    color: #cbc9c9;
+  }
+  
+  .p__opensans {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #bab3b3;
+  }
+  
