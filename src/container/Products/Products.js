@@ -56,7 +56,10 @@ const Products = () => {
   return (
     <section id="products" className="products-section">
       <div className="container">
-        <h1 className="section-title">Our Products</h1>
+        <h1 className="section-title">Our Products
+        <div className="section-divider"></div>
+        </h1>
+        
         <div className="cards-wrapper">
           {productData.map((product, index) => (
             <div className="product-card" key={index}>

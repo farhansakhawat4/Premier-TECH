@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState('/'); // default active
+  const [activeLink, setActiveLink] = useState('#home'); // default active
 
   const handleToggle = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
             href="#home"
             onClick={() => handleLinkClick('#home')}
             className={activeLink === '#home' ? 'active' : ''} >
-            <img alt="logo" src="/images/orange.png" />
+            <img alt="logo" src="/images/logo.png" />
           </a>
         
         <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
@@ -41,10 +41,10 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="#about"
-            onClick={() => handleLinkClick('#about')}
-            className={activeLink === '#about' ? 'active' : ''} >
-            About
+            href="#ideology"
+            onClick={() => handleLinkClick('#ideology')}
+            className={activeLink === '#ideology' ? 'active' : ''} >
+            Ideology
           </a>
           <a
             href="#products"
@@ -52,6 +52,13 @@ const Navbar = () => {
             className={activeLink === '#products' ? 'active' : ''} >
             Products
           </a>
+          <a
+            href="#about"
+            onClick={() => handleLinkClick('#about')}
+            className={activeLink === '#about' ? 'active' : ''} >
+            About
+          </a>
+        
           <a
             href="#contact"
             onClick={() => handleLinkClick('#contact')}
@@ -71,57 +78,4 @@ const Navbar = () => {
 export default Navbar;
 
 
-// import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
-// import './Navbar.css';
 
-// const Navbar = () => {
-//   const [menuOpen, setMenuOpen] = useState(false);
-//   const [activeLink, setActiveLink] = useState('/'); // default active
-
-//   const handleToggle = () => setMenuOpen(!menuOpen);
-//   const closeMenu = () => setMenuOpen(false);
-
-//   const handleLinkClick = (link) => {
-//     setActiveLink(link);
-//     closeMenu();
-//   };
-
-//   return (
-//     <nav className="navbar">
-//       <div className="navbar-container">
-//         <img alt="logo" src="/images/orange.png" />
-
-//         <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
-//           <Link
-//             to="/"
-//             onClick={() => handleLinkClick('/')}
-//             className={activeLink === '/' ? 'active' : ''}
-//           >
-//             Home
-//           </Link>
-//           <a
-//             href="#about"
-//             onClick={() => handleLinkClick('#about')}
-//             className={activeLink === '#about' ? 'active' : ''}
-//           >
-//             About
-//           </a>
-//           <a
-//             href="#contact"
-//             onClick={() => handleLinkClick('#contact')}
-//             className={activeLink === '#contact' ? 'active' : ''}
-//           >
-//             Contact
-//           </a>
-//         </div>
-
-//         <div className="navbar-toggle" onClick={handleToggle}>
-//           ☰
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;

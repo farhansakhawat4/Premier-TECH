@@ -1,15 +1,17 @@
 import Header from './Header/Header';
-import Footer from './Footer/Footer';
-import About from './About/About';
-import Contact from './Contact/Contact';
+import Ideology from './Ideology/Ideology';
 import Products from './Products/Products';
+import About from './About/About';
 import Team from './Team/Team';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 export {
     Header,
-    About,
-    Contact,
+    Ideology,
     Products,
+    About,
     Team,
+    Contact,
     Footer
   };
