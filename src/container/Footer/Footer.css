@@ -2,11 +2,13 @@
   background-color: #2e2c2c;
   color: #fff;
   padding: 40px 20px;
-  font-family: 'Poppins';
+  font-family: 'Poppins' , sans-serif;
+  border-bottom: 1px solid #f39c12;
 }
 
 .section__padding {
   padding: 4rem 4rem;
+  /* height: 200px; */
 }
 
 .app__footer-links {
@@ -48,7 +50,7 @@
 
 .app__footer-links_logo .p__opensans {
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: 'Roboto' , sans-serif;
   font-weight: bold;
   line-height: 1.6;
   color: #ddd;
@@ -57,7 +59,7 @@
 }
 .p__opensan {
   font-size: 14px;
-  font-family: 'Roboto';
+  font-family: 'Roboto' , sans-serif;
   line-height: 1.6;
   width: 170px;
   color: #fff;
@@ -79,7 +81,7 @@
 .quick-divider {
   width: 60px;
   height: 1px;
-  background-color: rgba(246, 249, 251, 0.3);
+  background-color: #f39c12;
   margin: -1rem 0 1rem 0;
   margin-left: 25px;
 }
@@ -87,7 +89,7 @@
 .app__footer .section-divider {
   width: 60px;
   height: 1px;
-  background-color: rgba(246, 249, 251, 0.3);
+  background-color: #f39c12;
   margin: -1rem 0 1rem 0;
 }
 
@@ -103,7 +105,7 @@
 .footer__nav-list a {
   text-decoration: none;
   color: #fff;
-  font-family: 'Poppins';
+  font-family: 'Roboto' , sans-serif;
   transition: color 0.3s ease;
 }
 .footer__nav-list a:hover {
@@ -129,6 +131,7 @@
   color: #ddd;
   line-height: 1.6;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
 }
 .app__footer-links_work a:hover {
   color: #fff;

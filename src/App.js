@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import { Header,Ideology,  Products,  About, Team, Contact, Footer  } from './container';
+import { Header, Brands, Products,  About, Team,Testimonial, Contact, Footer  } from './container';
 import { Navbar } from './components'
 import './App.css';
 
@@ -10,10 +10,12 @@ function App() {
     <div>
      <Navbar />
      <Header />
-     <Ideology />
+     <Brands />
+     {/* <Ideology /> */}
      <Products />
      <About />
      <Team />
+     <Testimonial />
      <Contact />
      <Footer />
     </div>

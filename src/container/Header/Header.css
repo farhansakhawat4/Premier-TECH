@@ -30,8 +30,21 @@
   object-fit: cover;
   z-index: -1;
 } */
+ 
+/* .header-overlay {
+  position: absolute;
+  top: 50%;
+  left: 5%; 
+  transform: translateY(-50%);
+  text-align: left;
+  padding: 0rem 2rem;
+  max-width: 520px;
+  opacity: 0;
+  animation: fadeInUpLeft 1s ease-out forwards;
+  animation-delay: 0.3s;
+} */
 
-.header-overlay {
+/* .header-overlay {
   position: absolute;
   
   top: 50%;
@@ -44,19 +57,56 @@
   opacity: 0;
   animation: fadeInUpCentered 1s ease-out forwards;
   animation-delay: 0.3s;
+} */
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  gap: 2rem;
+  opacity: 0;
+  animation: fadeInUpLeft 1s ease-out forwards;
+  animation-delay: 0.3s;
 }
 
+.header-overlay {
+  flex: 1;
+  text-align: left;
+  padding: 0;
+  max-width: 600px;
+}
+
+.header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-image img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
 .header-overlay h1 {
-  font-family: 'Poppins';
-  font-size: 3.5rem;
+  font-family: 'Poppins' , sans-serif;
+  font-style: italic;
+  font-size: 2.5rem;
   line-height: 1;
   margin-bottom: 2rem;
   
-
 }
 .header-overlay h1 strong {
-  font-size: 1.4em; 
-  font-weight: 800;
+  font-size: 1.5em; 
+  
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 1000;
   color: #fff; 
 }
 
@@ -96,17 +146,28 @@
     transform: translateY(-5px);
   }
 }
-
-@keyframes fadeInUpCentered {
+@keyframes fadeInUpLeft {
   0% {
-    transform: translate(-50%, -40%); /* Still center-based */
+    transform: translateY(-40%);
     opacity: 0;
   }
   100% {
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
     opacity: 1;
   }
 }
+
+
+/* @keyframes fadeInUpCentered { */
+  /* 0% {
+    transform: translate(-50%, -40%); /* Still center-based */
+    /* opacity: 0; */
+  /* } */ 
+  /* 100% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  } */
+/* } */
 
 @media (max-width: 1024px) {
   .header-overlay h1 {

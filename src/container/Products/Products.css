@@ -2,6 +2,7 @@
     padding: 60px 60px;
     background-color: #1d1d1d;
     scroll-margin-top: 80px;
+    border-bottom: 1px solid #f39c12;
   }
   /* .about__heading {
     font-size: 2.5rem;
@@ -15,7 +16,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 2.5rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins' , sans-serif;
     margin-bottom: 3rem;
     color: #fff;
   }
@@ -46,12 +47,12 @@
     font-size: 1.6rem;
     font-weight: 100;
     margin-bottom: 15px;
-    font-family: 'Poppins';
+    font-family: 'Poppins' , sans-serif;
     color: #fff;
   }
   .card-points {
     list-style: none;
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     padding-left: 20px;
   }
   

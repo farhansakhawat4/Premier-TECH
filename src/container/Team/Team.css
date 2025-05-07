@@ -1,6 +1,7 @@
 .team-section {
     padding: 60px 20px;
     background-color: #1d1d1d;
+    border-bottom: 1px solid #f39c12;
   }
   
   .container {
@@ -24,7 +25,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
-    font-family: 'Poppins';
+    font-family: 'Poppins' , sans-serif;
     margin-bottom: 3rem;
     color: #fff;
   }
@@ -70,14 +71,14 @@
   
   .team-member h3 {
     font-size: 1.2rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins' , sans-serif;
     margin: 10px 0 5px;
     color: #fff;
   }
   
   .team-member p {
     font-size: 0.95rem;
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     color: #A2A2A2;
   }
   
@@ -93,8 +94,8 @@
   }
   
   .about-block h5 {
-    font-size: 1.1rem;
-    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-family: 'Poppins' , sans-serif;
     color: #fff;
     margin-left: 3rem;
     margin-bottom: 10px;
@@ -103,7 +104,7 @@
   .about-block h3,
   .about-block p {
     font-size: 1rem;
-    font-family: 'Roboto';
+    font-family: 'Roboto' , sans-serif;
     line-height: 1.6;
     margin-left: 3rem;
     margin-right: 3rem;

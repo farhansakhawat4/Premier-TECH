@@ -30,7 +30,7 @@ const Products = () => {
     {
       title: 'Server',
       points: [
-        '24/7 uptime',
+        
         'Scalable infrastructure',
         'Virtualization ready'
       ]

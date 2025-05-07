@@ -11,10 +11,10 @@ const Header = () => {
     await loadSlim(main);
   };
 
-  const scrollToIdeology = () => {
-    const ideologySection = document.getElementById('ideology');
-    if (ideologySection) {
-      ideologySection.scrollIntoView({ behavior: 'smooth' });
+  const scrollToBrands = () => {
+    const brandSection = document.getElementById('brands');
+    if (brandSection) {
+      brandSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
  
@@ -74,15 +74,20 @@ const Header = () => {
         loop
         playsInline
       /> */}
-      <div className="header-overlay">
-      <h1>
-          One Stop Solution for all your digital needs.
-          You have <strong>Business</strong> &amp; We have <strong>Strategy</strong>.
-      </h1>
+   <div className="header-content">
+  <div className="header-overlay">
+    <h1>
+      One Stop Solution for all your digital needs.
+      You have <strong>Business</strong> &amp; We have <strong>Strategy</strong>.
+    </h1>
+    <p className="tagline">Design → Develop → Market → Repeat.</p>
+  </div>
 
-        <p className="tagline">Design → Develop → Market → Repeat.</p>
-      </div>
-      <div className="scroll-icons" onClick={scrollToIdeology}>
+  <div className="header-image">
+    <img src="/brands/hardware.jpg" alt="Digital Strategy" />
+  </div>
+</div>
+      <div className="scroll-icons" onClick={scrollToBrands}>
           <FontAwesomeIcon icon={faMouse} className="mouse-icon" />
           <br />
           <FontAwesomeIcon icon={faArrowDown} className="down-icon" />

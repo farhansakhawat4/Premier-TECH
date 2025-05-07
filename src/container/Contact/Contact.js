@@ -7,11 +7,11 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="section-title">
-            <h2>Contact</h2>
+            <h2>Contact Us</h2>
             <span className="section-divider"></span>
-            <p className="no-margin scaleReveal">
+            {/* <p className="no-margin scaleReveal">
               Our team is from all over the world and we know how to deliver quality pixels from miles away.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="contact-container">
@@ -76,8 +76,14 @@ const Contact = () => {
             </div>
           </form>
         </div>
-
-        <div className="row">
+        
+          <div className="section-text">
+            <p className="no-margin scaleReveal">
+              Our team is from all over the world and we know how to deliver quality pixels from miles away.
+            </p>
+          </div>
+        
+        {/* <div className="row">
           <div className="col-sm-5 col-lg-6">
             <div id="map">
               <iframe
@@ -89,7 +95,7 @@ const Contact = () => {
               ></iframe>
             </div>
           </div>
-        </div>
+        </div> */}
         </div>
       </div>
     </section>

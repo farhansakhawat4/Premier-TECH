@@ -46,7 +46,6 @@ const Ideology = () => {
             onMouseEnter={() => setHovered(item.id)}
             onMouseLeave={() => setHovered(null)}
           >
-         
              {hovered === item.id ? (
                
               <div className="hover-content">

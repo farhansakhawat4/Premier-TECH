@@ -41,10 +41,10 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="#ideology"
-            onClick={() => handleLinkClick('#ideology')}
-            className={activeLink === '#ideology' ? 'active' : ''} >
-            Ideology
+            href="#brands"
+            onClick={() => handleLinkClick('#brands')}
+            className={activeLink === '#brands' ? 'active' : ''} >
+            Brands
           </a>
           <a
             href="#products"
