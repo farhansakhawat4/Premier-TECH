@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="contact-card">
         <h2 className="contact-title">Get in Touch with Us!</h2>
         <p className="contact-subtitle">
-          Please fill in the form, and someone from the EXARTA team will contact you within 2 business days.
+          Please fill in the form, and someone from the Premier team will contact you within 2 business days.
         </p>
         <form className="contact-form">
           <div className="form-row">
