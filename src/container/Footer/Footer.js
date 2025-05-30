@@ -62,7 +62,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">© {new Date().getFullYear()} Premier-Tech. All Rights reserved.</p>
+      <p className="p__opensans">© {new Date().getFullYear()} CPU Premier. All Rights reserved.</p>
     </div>
   </div>
 );

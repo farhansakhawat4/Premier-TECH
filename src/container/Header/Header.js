@@ -77,10 +77,9 @@ const Header = () => {
    <div className="header-content">
   <div className="header-overlay">
     <h1>
-      One Stop Solution for all your digital needs.
-      You have <strong>Business</strong> &amp; We have <strong>Strategy</strong>.
+      Top-Tier <strong>IT</strong> &amp; Hardware <strong>Solutions</strong>.
     </h1>
-    <p className="tagline">Design → Develop → Market → Repeat.</p>
+    <p className="tagline">We deal in hardware that redefines <br /> the future of IT infrastructure.</p>
   </div>
 
   <div className="header-image">

@@ -49,15 +49,18 @@ const Team = () => {
             <h5>Our Goal</h5>
             
             <h3>
-              To create a worthier and unprecedented digital experience. <strong>M-Tech</strong> team
+              To create a worthier and unprecedented digital experience. <strong>CPU Premier</strong> team
               creates exceptional digital experiences for our clients every day.
             </h3>
           </div>
           <div className="about-block">
             <h5>Who are we?</h5>
             <p>
-              M-Tech adopts a 360-degree approach by targeting multiple channels, especially social media. Our specialties comprise business strategy, branding, design, content creation, UX/UI, CX, strategic marketing, web development, and much more digital awesomeness.
-              Our techniques for digital services are ready to attune to changes or turmoil taking place in the digital world with our team of various expertise and interests to push their ambitions to a new level.
+              We are dedicated team of IT hardware specialists committed to delivering IT hardware solutions 
+              that power the core of modern business infrastructure. With deep industry expertise and a passion 
+              for technology, we provide high-performance servers, scalable storage systems and custom hardware 
+              configurations. Our client-first approach make us trsuted partner for organizations that require 
+              robust and future-ready IT enovironmets. 
             </p>
           </div>
         </div>
